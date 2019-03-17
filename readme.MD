@@ -5,5 +5,5 @@
  127.0.0.1 backend.test  
  sudo usermod -aG docker $USER  
  docker-compose exec php composer  
- docker-compose exec php composer create-project --prefer-dist yiisoft/yii2-app-advanced yii-application  
-https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md  
+ docker-compose exec php composer create-project --prefer-dist yiisoft/yii2-app-advanced www/site.local/yii-application  
+ https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md  
